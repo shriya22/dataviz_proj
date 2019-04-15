@@ -59,7 +59,7 @@ References:
 5. https://blog.k2datascience.com/the-five-indispensable-rules-of-data-visualization-1119424bad14
 6. https://www.dummies.com/programming/big-data/big-data-visualization/what-makes-good-data-visualization/
 
-# Five visualization charts 
+# *Five visualization charts*
 ## Figure 1:
 ![](images/datavisual1.png)
 https://visme.co/blog/climate-change-facts/
@@ -101,7 +101,7 @@ https://www.geocraft.com/WVFossils/greenhouse_contrib.html
 * The framework also mentioned not to use 3D graphs in any case, as it is unnecessary and simply complicates the visual. The audience might think the height of the pie chart has some significance when infact it doesn't. Therefore 3D graphs are to be avoided.
 
 
-# Conclusion:
+# *Conclusion*:
 From all the above evaluations, we can see the importance of creating powerful visuals that follows the framework. The main goal is to convince the audience of the story that the visuals are trying to tell. It has to be clear and to the point. If the above framework is followed thoroughly, then achieving this is definetly possible.
 
 # PART 2
