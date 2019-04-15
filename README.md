@@ -1,6 +1,9 @@
 
 # PART 1
 
+# *Introduction*
+Data visualization is very helpful in obtaining useful insights and understanding the underlying distribution of the data.Successful data analysts leverage this powerful tool to effectively present their findings. It can also be used to detect anomalies and outliers in the data.Visualizing has to be done the proper way to successfuly communicate to the audience and convince them about the insights obtained. Hence it is a good practise to follow certain guidelines that will help create powerful visuals. 
+
 # *Framework for what makes data visualization effective*
 
 *	**Visuals must have useful end goals and insights**: Make sure visuals conclude something that is useful to the audience. We must construct visuals by focusing on what we want it to convey. 
@@ -9,40 +12,42 @@
 
 + **Keep your visualizations clear and to the point**: 
   - Primarily keep the plot simple and try not to include information that isn't important. Avoid overloading the charts, if there are too many things going on in the chart, the audience won't be able to understand anything and the whole point is lost.
-  -	Don't include shadows, duplicate information, useless illustrations etc. 
   -	Basically don't overcomplicate the visual, make sure you understand what is to be achieved.
-  -	**Titles/headers**:Keep chart headers simple, avoid making it too long. It needs to be clear as to what the chart really is. It should basically define the relationship between the variables of interest. Don't use interpretive language for the headings(for example: If "substantially"" is used in our header, then the audience might believe that the changes are substantial even though the plot shows us otherwise. Hence including such words will put the wrong idea in the audience's minds).
-  -	**Fonts**:Keep fonts simple as well. Don't distract the audience by using over the top fonts. If any message has to be conveyed, it is okay to use bold fonts or italics and such, but is isn't advisable to combine various things at once.
-  -	**Captions**:Use captions only if truly required to add more clarity to the visual, but should be avoided if it can mislead the audience.Hence use with caution. 
-  -	**Callouts**:Callouts have to be used only when really required, don't just use it to make the visual more interesting or to fill space. We have to remember to keep it as simple as possible.
   
-*	**Make sure x and y axis scales are present**: If not present then the audience will find it difficult to understand what the visual is trying to convey.
+* **Titles/headers**: Keep chart headers simple, avoid making it too long. It needs to be clear as to what the chart really is. It should basically define the relationship between the variables of interest. Don't use interpretive language for the headings(for example: If "substantially"" is used in our header, then the audience might believe that the changes are substantial even though the plot shows us otherwise. Hence including such words will put the wrong idea in the audience's minds).
 
-+ **Labels**:
-  -	Labels must be visible in our visuals.
-  -	Make sure the axes labels are clear and not overcrowded. Don't let the labels overlap as it won't be possible to read them.
-  -	Use vertical labels if the labels aren't visible in the x axis, or rotate the chart if the labels are too long. (for example, bar charts can be inverted in this case,which places the long lables in the y axis that displays it clearly)
-  -	Use direct labelling and avoid indirect lookup. For example, in a line chart, towards the end of each like we can provide labels, instead of indicating what each line means somewhere else.
-  
-+ **Use the right charts**: Based on the data and the scenario that we want to visualise; we have to be sure to pick the appropriate chart. Pick a chart that will captivate the audience in the most effective way.
+*	**Fonts**: Keep fonts simple as well. Don't distract the audience by using over the top fonts. If any message has to be conveyed, it is okay to use bold fonts or italics and such, but is isn't advisable to combine various things at once like using large, underlined, differnt fonts with many colours.
+
+*	**Captions**: Use captions only if truly required to add more clarity to the visual, but should be avoided if it can mislead the audience.Hence use with caution. 
+
++ **Use the right charts**: Based on the data and the scenario that we want to visualise, we have to be sure to pick the appropriate chart. Pick a chart that will captivate the audience in the most effective way.
   -	**Use panel charts for tall bars**: If some of the bars are really tall compared to the rest, it is advisable to use multiple charts. This will provide clear information about each of the bars,without omitting vital information.
   -	**Don't use 3D charts**: They are confusing and complicated, and it is very difficult to interpret 3D visualizations as there are too many things going on in these charts.
   -	**Avoid pie charts**: When you have a lot of things to compare, using a pie chart isn't advisable as it can get cluttered and messy. Even if there are not many categories to compare, there are better alternatives to pie chart like bar graph. Bar graphs are more intuitive, and they help to better compare the categories than a pie chart. Hence in general pie charts have be avoided.
   -	**Replace stacked chart with line chart if possible**: Stacked charts are difficult to understand completely, hence line charts can be used instead. Again, our main goal is to make the audience understand the graph,but using stacked graphs can cause unneccessary confusion as it isn't as easy to intrepret stacked graphs as compared to line charts.
+
+*	**Make sure x and y axis scales are present**: If not present then the audience will find it difficult to understand what the visual is trying to convey.  
+
++ **Ordering of data**:
+  -	Order alphabetically, by value or sequentially. This keeps the visuals neat and easy to interpret.
+  - Don't let the values in our axis overlap as it won't be possible to read them.
+  -	Change the value's positioning to vertical, if the labels aren't visible in the x axis, alternatively we can rotate the chart if they are too long and overlapping. (for example, bar charts can be inverted in this case,which places the long lables in the y axis that displays it clearly)
+  -	Ordering in legends should be same as the order present in our plot.
+  -	Don't use uneven increments on your axes. Also, avoid using inconsistent scales. For example, if your scale is 2011, 2012, 2013, 2014Q1, 2014Q2, 2014Q3, 2014Q4. Here 2014 is divided according to the quarters which leads to inconsistency in our axes.
+  
++ **Labels**:
+  -	Labels for each axis must be present in our visuals.
+  -	Make sure the labels are clear and not too long. 
+  -	Use direct labelling . For example, in a line chart, towards the end of each line we can provide labels, instead of indicating what each line means somewhere else.
+ 
 *	**Perform all the calcutions and visualize it**: The audience will find it hard to follow if we expect them to further perform some calculations and get insights from that. Instead, we must do all the calculations ourselves and visualise that in our plot.
 
 + **Be careful when using colours**: Colours are very useful for creating effective visuals, but  overdoing it can lead to many ambiguities.
   - Same colours have to be used for the same kind of data. Depending on the scenario, we have to pick the right colours for the information we want to convey. For example, when comparing last year's sales to this year's sale, use different colour for each year.
-   -	Colours have to be selected appropriately as some colours will give unnecessary weight to the data. Advisable to use spectrum of the same colour if we want to show intensity.
-  -	Adding to the above point,be careful when using colours for positive and negative numbers.In our scenario if positive numbers are better than obtaining negative numbers,then use green for positive and red for negative. But if higher the number,the worse it is,then use red for postives and green for negatives. 
-  -	Use colours that are contrasting to clearly understand the differences between what we are trying to show. If same colours are used, it will be hard to know where one stops and where the other starts. At the same time don't use too over contrasting colours. 
+   -	Colours have to be selected appropriately as some colours will give unnecessary weight to the data. 
+  -	Adding to the above point,be careful when using colours for positive and negative numbers.In our scenario if positive numbers are better than obtaining negative numbers,then use green for positive and red for negative(or any colour that will clearly indicate positives and negatives) . But if higher the number,the worse it is,then use red for postives and green for negatives. 
+  -	Use colours that are contrasting to clearly understand the differences between what we are trying to show. If similar colours are used, it will be hard to know where one thing stops and where the other starts. At the same time don't use too over contrasting colours. 
   -	Don't use more than 6 colours. Too many colours are too distracting and will stray away from the point we are trying to make.
-  -	Don't create distracting patterns like stripes and polka dots.
-  
-+ **Ordering of data**:
-  -	Order alphabetically, by value or sequentially. This keeps the visuals neat and easy to interpret.
-  -	Ordering in legends should be same as the order present in our plot.
-  -	Don't use uneven increments on your axes. Also, avoid using inconsistent scales. For example, if your scale is 2011, 2012, 2013, 2014Q1, 2014Q2, 2014Q3, 2014Q4.Here 2014 is divided according to the quarters which leads to inconsistency in our axes.
   
 *	**Make sure your visualization is accessible**: Our visuals must be accessible for future modifications. It must also be easy to use and scalable.
   
@@ -50,9 +55,9 @@
 
 References:
 1. https://www.eea.europa.eu/data-and-maps/daviz/learn-more/chart-dos-and-donts
-2. https://guides.library.duke.edu/datavis/topten 
+2. https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design
 3. https://web.archive.org/web/20030402093134/http://www.sao.state.tx.us/Resources/Manuals/Method/data/12DECEPD.pdf
-4. https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design
+4. https://guides.library.duke.edu/datavis/topten 
 5. https://blog.k2datascience.com/the-five-indispensable-rules-of-data-visualization-1119424bad14
 6. https://www.dummies.com/programming/big-data/big-data-visualization/what-makes-good-data-visualization/
 
@@ -74,19 +79,21 @@ https://environmentaldatavisuals.wordpress.com/2016/10/16/visuals-only-co2-effic
 * A visual can be effective if it is clear and simple. But this plot has too many variables and hence the information about a lot of countries isn't clear at all (all we can say is that many of the countries are emitting between 0 to 1000 megatons of CO2, but it isn’t clear which ones and exactly how much is being emitted).
 * Knowing the end goals of the visual is very important as given by the framework. If the audience is just looking for, let’s say top 5 countries emitting a lot of CO2, then we can eliminate clutter by just having 5 lines for the top 5 countries in our plot. But if they want information about all countries, I would suggest to use mulitple line charts with different scales that will clearly show all the lines represting each country.
 * And it’s not advisable to use more than six colours in a single plot.However, more than 40 colours are used for each of the lines. Hence, we can’t distinguish between the countries with confidence. The colours in figure 1 were definitely more distinguishable compared to this figure. 
+* Incorporating these changes can create a more powerful plot.
  
 ## Figure 3:
 ![](images/d7.png)
 https://www.epa.gov/climate-indicators/climate-change-indicators-climate-forcing
 * This stacked graph shows the heating effect caused by greenhouse gases. This graph tells us that climate change is due to the substantial increase in the greenhouse gases throughout the years. 
 * According to the framework, stacked charts aren’t very clear to understand.Instead line charts can be used. Line charts are understood by all and can be a more effective way of conveying the same information.
+* Also the colours used aren't very appropriate for what they're trying to convey.In this figure carbon dioxide has been given green. Green colour is usually associated with being safe or good, and red for being unsafe or bad. But here we see that carbon dioxide is increasing at an alamrmingly high rate which is clearly not good. Hence the colours don;t really match with what the visual is trying to convey. 
 
 ## Figure 4:
 ![](images/d8.png)
 https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 * This line graph depicts the relationship between actual increase in temperature versus the increase in temperature due to human factors. We can see clearly from this that human factors are causing the increase in temperature.
 * But according to the framework, a title is required and defining the y axis clearly instead of just giving 1880-2005.
-* But I think this is a very good and effective graph, it is clear and it conveys the message clearly. It follows the framework almost perfectly.
+* But I think this is a very good and effective graph, it is clear and it conveys the message clearly. It follows the framework almost perfectly.It shows the average temperature, and how much higher the temperature actually is compared to that.Basically does a good job at convincing the audience of the impact that humans have on climate change.
 
 ## Figure 5:
 ![](images/d9.png)
