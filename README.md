@@ -108,3 +108,4 @@ From all the above evaluations, we can see the importance of creating powerful v
 
 # *Replication of warming stripes*
 ![](images/warming_stripes.png)
+![access the twbx file](self_study.twbx)
