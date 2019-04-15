@@ -2,7 +2,7 @@
 # PART 1
 
 # *Introduction*
-Data visualizatios are very helpful in obtaining useful insights and understanding the underlying distribution of the data. Successful data analysts leverage this powerful tool to effectively present their findings. It can also be used to detect anomalies and outliers in the data.Visualizations have to be done the proper way to successfuly communicate to the audience and convince them about the insights obtained. Hence it is a good practice to follow certain guidelines that will help create powerful visuals. 
+Data visualizatios are very helpful in obtaining useful insights and understanding the underlying distribution of the data. Successful data analysts leverage this powerful tool to effectively present their findings. It can also be used to detect anomalies and outliers in the data.Visualizations have to be done the proper way to successfuly communicate to the audience and convince them about the insights obtained. Hence it is a good practice to follow certain guidelines that will  help to create powerful visuals. 
 
 # *Framework for what makes data visualization effective*
 
@@ -14,7 +14,7 @@ Data visualizatios are very helpful in obtaining useful insights and understandi
   
 * **Titles/headers**: Keep chart titles simple, avoid making it too long. It needs to be clear as to what the chart really is. It should basically define the relationship between the variables of interest. Don't use interpretive language for the headings(for example: If "substantially"" is used in our header, then the audience might believe that the changes are substantial even though the plot shows us otherwise. Hence including such words will put the wrong idea in the audience's minds).
 
-*	**Fonts**: Keep fonts simple as well. Don't distract the audience by using over the top fonts. If any message has to be conveyed, it is okay to use bold fonts or italics and such, but is isn't advisable to combine various things at once like using large, underlined, differnt fonts with many colours.
+*	**Fonts**: Keep fonts simple as well. Don't distract the audience by using over the top fonts. If any message has to be conveyed, it is okay to use bold fonts or italics and such, but it isn't advisable to combine various things at once like using large, underlined, differnt fonts with many colours.
 
 *	**Captions**: Use captions only if truly required to add more clarity to the visual, but should be avoided if it can mislead the audience.Hence use with caution. 
 
@@ -67,7 +67,7 @@ https://visme.co/blog/climate-change-facts/
 * We see that Africa has the highest risk of climate change while Europe has the lowest.
 * According to the framework, a title or header is required to help the audience understand exactly what the visual is attempting to convey. This is missing from the visual.
 * And the colours of Europe and America are very similar, hence it would be more effective to show proper difference between the two by using contrasting colours.
-* Ordering of data is also very important, usually we would expect the y axis to start from low risk to extreme risk. This might confuse the audience as they would at a glance guess that Europe has higher risk as it is higher up in the chart. Adding to that, the y axis values are confusing as you would normally expect a lower number to have a lower risk.  So, I would suggest to change the order of the y axis, and label the y axis in terms of the risk and not the climate change vulnerability index, because the general audience wouldn’t necessarily understand what vulnerability index is.
+* Ordering of data is also very important, usually we would expect the y axis to start from low risk to extreme risk. This might confuse the audience as they would at a glance guess that Europe has higher risk as it is higher up in the chart. Adding to that, the y axis values are confusing as you would normally expect a lower number to have a lower risk.  So, I would suggest to change the order of the y axis, and label the y axis in terms of the risk and not the climate change vulnerability index, because the general audience wouldn’t necessarily understand what a vulnerability index is.
 * Therefore, handling these can further improve the plot and generate a more compelling visual.
 
 ## Figure 2:
@@ -75,7 +75,7 @@ https://visme.co/blog/climate-change-facts/
 https://environmentaldatavisuals.wordpress.com/2016/10/16/visuals-only-co2-efficiency-and-emissions-by-country-over-time/
 * The above image is a line chart that depicts the carbon dioxide emissions for a few countries, and from 1990 to 2014. This chart can help us identify the countries having the highest CO2 emissions(certainly due to human causes), which is one of the main reasons for climate change.
 * A visual can be effective if it is clear and simple. But this plot has too many variables and hence the information about a lot of countries aren't clear at all (all we can say is that many of the countries are emitting 0 to 1000 megatons of CO2, but it isn’t clear which ones and exactly how much is being emitted).
-* Knowing the end goals of the visual is very important as given by the framework. If the audience is just looking for, let’s say top 5 countries emitting a lot of CO2, then we can eliminate clutter by just having 5 lines for the top 5 countries in our plot. But if they want information about all countries, I would suggest to use mulitple line charts with different scales that will clearly show all the lines represting each country.
+* Knowing the end goals of the visual is very important as given by the framework. If the audience is just looking for, let’s say top 5 countries emitting a lot of CO2, then we can eliminate clutter by just having 5 lines for the top 5 countries in our plot. But if they want information about all the countries, I would suggest to use mulitple line charts with different scales that will clearly show all the lines represting each country.
 * And it’s not advisable to use more than six colours in a single plot.However, more than 40 colours are used for each of the lines. Hence, we can’t distinguish between the countries with confidence. The colours in figure 1 were definitely more distinguishable compared to this figure. 
 * Incorporating these changes can create a more powerful plot.
  
@@ -83,15 +83,15 @@ https://environmentaldatavisuals.wordpress.com/2016/10/16/visuals-only-co2-effic
 ![](images/d7.png)
 https://www.epa.gov/climate-indicators/climate-change-indicators-climate-forcing
 * This stacked graph shows the heating effect caused by greenhouse gases. This graph tells us that climate change is due to the substantial increase in the greenhouse gases throughout the years. 
-* According to the framework, stacked charts aren’t very clear to understand.Instead line charts can be used. Line charts are understood by all and can be a more effective way of conveying the same information.
-* Also the colours used aren't very appropriate for what they're trying to convey.In this figure carbon dioxide has been given green. Green colour is usually associated with being safe or good, and red for being unsafe or bad. But here we see that carbon dioxide is increasing at an alamrmingly high rate which is clearly not good. Hence the colours don't really match with what the visual is trying to convey. 
+* According to the framework, stacked charts aren’t very clear to understand. Instead line charts can be used. Line charts are understood by all and can be a more effective way of conveying the same information.
+* Also the colours used aren't very appropriate for what they're trying to convey. In this figure carbon dioxide has been given green. Green colour is usually associated with being safe or good, and red for being unsafe or bad. But here we see that carbon dioxide is increasing at an alarmingly high rate which is clearly not good. Hence the colours don't really match with what the visual is trying to convey. 
 
 ## Figure 4:
 ![](images/d8.png)
 https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 * This line graph depicts the relationship between actual increase in temperature versus the increase in temperature due to human factors. We can see clearly from this that human factors are causing the increase in temperature.
 * But according to the framework, a title is required and defining the y axis clearly instead of just giving 1880-2005.
-* But I think this is a very good and effective graph, it is clear and it conveys the message clearly. It follows the framework almost perfectly.It shows the average temperature, and how much higher the temperature actually is compared to that. Basically, it does a good job at convincing the audience of the impact that humans have on climate change.
+* But I think this is a very good and effective graph, it is clear and it conveys the message clearly. It follows the framework almost perfectly. It shows the average temperature, and how much higher the temperature actually is compared to that. Basically, it does a good job at convincing the audience of the impact that humans have on climate change.
 
 ## Figure 5:
 ![](images/d9.png)
