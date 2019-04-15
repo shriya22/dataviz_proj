@@ -2,7 +2,7 @@
 # PART 1
 
 # *Introduction*
-Data visualization is very helpful in obtaining useful insights and understanding the underlying distribution of the data.Successful data analysts leverage this powerful tool to effectively present their findings. It can also be used to detect anomalies and outliers in the data.Visualizing has to be done the proper way to successfuly communicate to the audience and convince them about the insights obtained. Hence it is a good practise to follow certain guidelines that will help create powerful visuals. 
+Data visualizatios are very helpful in obtaining useful insights and understanding the underlying distribution of the data. Successful data analysts leverage this powerful tool to effectively present their findings. It can also be used to detect anomalies and outliers in the data.Visualizations have to be done the proper way to successfuly communicate to the audience and convince them about the insights obtained. Hence it is a good practice to follow certain guidelines that will help create powerful visuals. 
 
 # *Framework for what makes data visualization effective*
 
@@ -10,20 +10,18 @@ Data visualization is very helpful in obtaining useful insights and understandin
 
 * **Avoid misleading visuals**: It is a good practise to include zero baseline in our plot. If the axes don't start from 0, it will mislead the audience.
 
-+ **Keep your visualizations clear and to the point**: 
-  - Primarily keep the plot simple and try not to include information that isn't important. Avoid overloading the charts, if there are too many things going on in the chart, the audience won't be able to understand anything and the whole point is lost.
-  -	Basically don't overcomplicate the visual, make sure you understand what is to be achieved.
+* **Keep your visualizations clear and to the point**: Primarily we have to keep the plot simple and try not to include information that isn't important. Avoid overloading the charts, if there are too many things going on in the chart, the audience won't be able to understand anything and the whole point is lost. Basically, don't overcomplicate the visual, make sure you understand what is to be achieved.
   
-* **Titles/headers**: Keep chart headers simple, avoid making it too long. It needs to be clear as to what the chart really is. It should basically define the relationship between the variables of interest. Don't use interpretive language for the headings(for example: If "substantially"" is used in our header, then the audience might believe that the changes are substantial even though the plot shows us otherwise. Hence including such words will put the wrong idea in the audience's minds).
+* **Titles/headers**: Keep chart titles simple, avoid making it too long. It needs to be clear as to what the chart really is. It should basically define the relationship between the variables of interest. Don't use interpretive language for the headings(for example: If "substantially"" is used in our header, then the audience might believe that the changes are substantial even though the plot shows us otherwise. Hence including such words will put the wrong idea in the audience's minds).
 
 *	**Fonts**: Keep fonts simple as well. Don't distract the audience by using over the top fonts. If any message has to be conveyed, it is okay to use bold fonts or italics and such, but is isn't advisable to combine various things at once like using large, underlined, differnt fonts with many colours.
 
 *	**Captions**: Use captions only if truly required to add more clarity to the visual, but should be avoided if it can mislead the audience.Hence use with caution. 
 
 + **Use the right charts**: Based on the data and the scenario that we want to visualise, we have to be sure to pick the appropriate chart. Pick a chart that will captivate the audience in the most effective way.
-  -	**Use panel charts for tall bars**: If some of the bars are really tall compared to the rest, it is advisable to use multiple charts. This will provide clear information about each of the bars,without omitting vital information.
+  -	**Use multiple charts for tall bars**: If some of the bars are really tall compared to the rest, it is advisable to use multiple charts. This will provide clear information about each of the bars,without omitting vital information.
   -	**Don't use 3D charts**: They are confusing and complicated, and it is very difficult to interpret 3D visualizations as there are too many things going on in these charts.
-  -	**Avoid pie charts**: When you have a lot of things to compare, using a pie chart isn't advisable as it can get cluttered and messy. Even if there are not many categories to compare, there are better alternatives to pie chart like bar graph. Bar graphs are more intuitive, and they help to better compare the categories than a pie chart. Hence in general pie charts have be avoided.
+  -	**Avoid pie charts**: When you have a lot of things to compare, using a pie chart isn't advisable as it can get cluttered and messy. Even if there are not many categories to compare, there are better alternatives to pie charts like a bar graph. Bar graphs are more intuitive, and they help to better compare the categories than a pie chart. Hence in general pie charts can be avoided.
   -	**Replace stacked chart with line chart if possible**: Stacked charts are difficult to understand completely, hence line charts can be used instead. Again, our main goal is to make the audience understand the graph,but using stacked graphs can cause unneccessary confusion as it isn't as easy to intrepret stacked graphs as compared to line charts.
 
 *	**Make sure x and y axis scales are present**: If not present then the audience will find it difficult to understand what the visual is trying to convey.  
@@ -40,7 +38,7 @@ Data visualization is very helpful in obtaining useful insights and understandin
   -	Make sure the labels are clear and not too long. 
   -	Use direct labelling . For example, in a line chart, towards the end of each line we can provide labels, instead of indicating what each line means somewhere else.
  
-*	**Perform all the calcutions and visualize it**: The audience will find it hard to follow if we expect them to further perform some calculations and get insights from that. Instead, we must do all the calculations ourselves and visualise that in our plot.
+*	**Perform all the calcutions and visualize it**: The audience will find it hard to follow if we expect them to further perform some calculations and obtain insights from that. Instead, we must do all the calculations ourselves and visualise it in our plot.
 
 + **Be careful when using colours**: Colours are very useful for creating effective visuals, but  overdoing it can lead to many ambiguities.
   - Same colours have to be used for the same kind of data. Depending on the scenario, we have to pick the right colours for the information we want to convey. For example, when comparing last year's sales to this year's sale, use different colour for each year.
@@ -76,7 +74,7 @@ https://visme.co/blog/climate-change-facts/
 ![](images/d5.png)
 https://environmentaldatavisuals.wordpress.com/2016/10/16/visuals-only-co2-efficiency-and-emissions-by-country-over-time/
 * The above image is a line chart that depicts the carbon dioxide emissions for a few countries, and from 1990 to 2014. This chart can help us identify the countries having the highest CO2 emissions(certainly due to human causes), which is one of the main reasons for climate change.
-* A visual can be effective if it is clear and simple. But this plot has too many variables and hence the information about a lot of countries isn't clear at all (all we can say is that many of the countries are emitting between 0 to 1000 megatons of CO2, but it isn’t clear which ones and exactly how much is being emitted).
+* A visual can be effective if it is clear and simple. But this plot has too many variables and hence the information about a lot of countries aren't clear at all (all we can say is that many of the countries are emitting 0 to 1000 megatons of CO2, but it isn’t clear which ones and exactly how much is being emitted).
 * Knowing the end goals of the visual is very important as given by the framework. If the audience is just looking for, let’s say top 5 countries emitting a lot of CO2, then we can eliminate clutter by just having 5 lines for the top 5 countries in our plot. But if they want information about all countries, I would suggest to use mulitple line charts with different scales that will clearly show all the lines represting each country.
 * And it’s not advisable to use more than six colours in a single plot.However, more than 40 colours are used for each of the lines. Hence, we can’t distinguish between the countries with confidence. The colours in figure 1 were definitely more distinguishable compared to this figure. 
 * Incorporating these changes can create a more powerful plot.
@@ -86,21 +84,21 @@ https://environmentaldatavisuals.wordpress.com/2016/10/16/visuals-only-co2-effic
 https://www.epa.gov/climate-indicators/climate-change-indicators-climate-forcing
 * This stacked graph shows the heating effect caused by greenhouse gases. This graph tells us that climate change is due to the substantial increase in the greenhouse gases throughout the years. 
 * According to the framework, stacked charts aren’t very clear to understand.Instead line charts can be used. Line charts are understood by all and can be a more effective way of conveying the same information.
-* Also the colours used aren't very appropriate for what they're trying to convey.In this figure carbon dioxide has been given green. Green colour is usually associated with being safe or good, and red for being unsafe or bad. But here we see that carbon dioxide is increasing at an alamrmingly high rate which is clearly not good. Hence the colours don;t really match with what the visual is trying to convey. 
+* Also the colours used aren't very appropriate for what they're trying to convey.In this figure carbon dioxide has been given green. Green colour is usually associated with being safe or good, and red for being unsafe or bad. But here we see that carbon dioxide is increasing at an alamrmingly high rate which is clearly not good. Hence the colours don't really match with what the visual is trying to convey. 
 
 ## Figure 4:
 ![](images/d8.png)
 https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 * This line graph depicts the relationship between actual increase in temperature versus the increase in temperature due to human factors. We can see clearly from this that human factors are causing the increase in temperature.
 * But according to the framework, a title is required and defining the y axis clearly instead of just giving 1880-2005.
-* But I think this is a very good and effective graph, it is clear and it conveys the message clearly. It follows the framework almost perfectly.It shows the average temperature, and how much higher the temperature actually is compared to that.Basically does a good job at convincing the audience of the impact that humans have on climate change.
+* But I think this is a very good and effective graph, it is clear and it conveys the message clearly. It follows the framework almost perfectly.It shows the average temperature, and how much higher the temperature actually is compared to that. Basically, it does a good job at convincing the audience of the impact that humans have on climate change.
 
 ## Figure 5:
 ![](images/d9.png)
 https://www.geocraft.com/WVFossils/greenhouse_contrib.html
-* This figure argues that global warming by greenhouse effect( which is the main reason for climate change) is due to water vapour, but human factors are very insigficant.
+* This figure argues that global warming by greenhouse effect( which is the main reason for climate change) is due to water vapour, but human factors are very insignificant.
 * First thing I noticed is that the pie chart doesn't do a good job at showing human contributions at all. Even though it is present,it is barely visible.The framework did say that pie chart is better to be avoided. Therefore I would suggest to change this to a bar chart which will effectively compare the three factors, and the human factor bar will be visible (even if the bar is really short, it will be more visible than in the pie chart).
-* The framework also mentioned to not use 3D graphs in any case, as it is unnecessary and simply complicates the visual. The audience might think the height of the pie chart has some significance when infact it doesn't. Therefore 3D graphs are to be avoided.
+* The framework also mentioned not to use 3D graphs in any case, as it is unnecessary and simply complicates the visual. The audience might think the height of the pie chart has some significance when infact it doesn't. Therefore 3D graphs are to be avoided.
 
 
 # Conclusion:
@@ -109,4 +107,4 @@ From all the above evaluations, we can see the importance of creating powerful v
 # PART 2
 
 # *Replication of warming stripes*
-![](images/warming_replica.png)
+![](images/warming_stripes.png)
