@@ -2,7 +2,7 @@
 # PART 1
 
 # *Introduction*
-Data visualizatios are very helpful in obtaining useful insights and understanding the underlying distribution of the data. Successful data analysts leverage this powerful tool to effectively present their findings. It can also be used to detect anomalies and outliers in the data.Visualizations have to be done the proper way to successfuly communicate to the audience and convince them about the insights obtained. Hence it is a good practice to follow certain guidelines that will  help to create powerful visuals. 
+Data visualizations are very helpful in obtaining useful insights and understanding the underlying distribution of the data. Successful data analysts leverage this powerful tool to effectively present their findings. It can also be used to detect anomalies and outliers in the data. Visualizations have to be done the proper way to successfuly communicate to the audience and convince them about the insights obtained. Hence it is a good practice to follow certain guidelines that will  help to create powerful visuals. 
 
 # *Framework for what makes data visualization effective*
 
